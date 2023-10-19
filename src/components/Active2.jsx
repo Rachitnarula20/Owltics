@@ -1,5 +1,5 @@
 import React from 'react'
-import item2 from '../assets/item2.png'
+import item2 from '../assets/Item2.png'
 const data = [
     {
       head: "Track an event",
