@@ -3,7 +3,7 @@ import React from "react";
 import Dev_Tabs from "./Dev_Tabs";
 
 
-const Developer = () => {
+const Developer2 = () => {
   const [value, setValue] = useState(0);
   const handleChange = (event, newValue) => {
     setValue(newValue);
@@ -31,4 +31,4 @@ const Developer = () => {
   );
 };
 
-export default Developer;
+export default Developer2;

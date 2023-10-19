@@ -1,6 +1,6 @@
 import React from 'react'
 import connect from '../assets/cropped picture.png'
-const Connect = () => {
+const Connect2 = () => {
   return (
     <div>
     <h3 className='flex justify-center font-bold text-center text-gray-500'>App Integration</h3>
@@ -12,4 +12,4 @@ const Connect = () => {
   )
 }
 
-export default Connect;
+export default Connect2;

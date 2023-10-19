@@ -1,6 +1,5 @@
 import './App.css'
 import Blog from './components/Blog'
-import Dev_Tabs from './components/Dev_Tabs'
 import Features from './components/Features'
 import Footer from './components/Footer'
 import Framework from './components/Framework'
@@ -11,8 +10,8 @@ import Premise from './components/Premise'
 import Pricing from './components/Pricing'
 import Productive from './components/Productive'
 import Support from './components/Support'
-import Connect from './components/connect'
-import Developer from './components/developer'
+import Developer2 from './components/Developer2'
+import Connect2 from './components/Connect2'
 
 function App() {
 
@@ -22,13 +21,13 @@ function App() {
     <Navbar />
     <Hero />
     <Install />
-    <Developer/>
+    <Developer2/>
     <Support />
     <Productive />
     <Framework />
     <Premise />
     <Features />
-    <Connect />
+   <Connect2 />
     <Pricing />
     <Blog />
     <Footer /> 
