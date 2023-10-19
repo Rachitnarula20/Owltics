@@ -1,5 +1,5 @@
 import React from 'react'
-import group from '../assets/group.png'
+import group from '../assets/Group.png'
 const Premise = () => {
   return (
     <div className='flex justify-evenly  mt-16 mb-10'>
