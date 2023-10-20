@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <div className='gradient-1' id='home'>
       <div className='font-bold text-[55px] text-center pt-24'>
-        Effortlessly <span className="text-[#08A2F3]">Capture Bugs</span> Without Logs
+        Effortlessly <span className="text-[#08A2F3]">Capture Bugs</span> With Logs
       </div>
       <div className='text-center  text-gray-500 mt-6'>
       Avoid the hassle of going back and forth with different teams by

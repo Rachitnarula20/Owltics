@@ -8,8 +8,14 @@ import Active2 from './Active2';
 import Active3 from './Active3';
 import Active4 from './Active4';
 import Active5 from './Active5';
-import database from '../assets/Database.png'
-import { Avatar } from '@mui/material';
+import Img1 from '../assets/console.png'
+import Img2 from '../assets/Database.png'
+import Img3 from '../assets/Icon Grid.png'
+import Img4 from '../assets/Network.png'
+import Img5 from '../assets/User.png'
+
+import { Avatar } from 'antd';
+
 
 export default function Dev_Tabs() {
   const [value, setValue] = React.useState('1');
@@ -34,11 +40,11 @@ export default function Dev_Tabs() {
         className='mt-10'
       >
       
-        <Tab  value="1"  label="Console Traces" style={{textTransform:'capitalize', fontSize:20, fontWeight:'bold'}} className='w-1/5'/>
-        <Tab value="2" label="Detailed Network Log" style={{textTransform:'capitalize', fontSize:20, fontWeight:'bold'}} className='w-1/5'/>
-        <Tab value="3" label="Browser storage Info" style={{textTransform:'capitalize', fontSize:20, fontWeight:'bold'}} className='w-1/5'/>
-        <Tab value="4" label="User Events" style={{textTransform:'capitalize', fontSize:20, fontWeight:'bold'}} className='w-1/5 '/>
-        <Tab value="5" label="Browser & System Info" style={{textTransform:'capitalize', fontSize:20, fontWeight:'bold'}} className='w-1/5'/>
+        <Tab icon={<Avatar src={Img1 }/> } iconPosition='start' value="1"  label="Console Traces" style={{textTransform:'capitalize', fontSize:16, fontWeight:'bold'}} className=' w-1/5'/>
+        <Tab icon={<Avatar src={Img2 }/> } iconPosition='start' value="2" label="Detailed Network Log" style={{textTransform:'capitalize', fontSize:16, fontWeight:'bold'}} className='w-1/5'/>
+        <Tab icon={<Avatar src={Img3 }/> } iconPosition='start' value="3" label="Browser storage Info" style={{textTransform:'capitalize', fontSize:16, fontWeight:'bold'}} className='w-1/5'/>
+        <Tab icon={<Avatar src={Img5 }/> } iconPosition='start' value="4" label="User Events" style={{textTransform:'capitalize', fontSize:16, fontWeight:'bold'}} className='w-1/5 '/>
+        <Tab icon={<Avatar src={Img4 }/> } iconPosition='start' value="5" label="Browser & System Info" style={{textTransform:'capitalize', fontSize:16, fontWeight:'bold'}} className='w-1/5'/>
       </TabList>
       <hr />
     <TabPanel value="1"><Active1 /></TabPanel>
