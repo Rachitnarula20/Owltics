@@ -39,9 +39,9 @@ const Active1 = () => {
           ))}
         </div>
 
-        <div className="ml-16">
+        <div className="ml-16 sml:h-2">
           <h1 className="font-bold text-3xl mt-7">Track an Event</h1>
-          <p className="mt-8">
+          <p className="mt-8 sml:mt-4">
             Use the capture method to send custom events from yopur codebase.
             Use this data in PosHog for building cohorts, filtering insights,
             watching specific session replays, triggering feature flags, adding

@@ -27,7 +27,7 @@ export default function Dev_Tabs() {
 
  
   return (
-    <div className='mx-52'>
+    <div className='mx-52 sml:mx-0'>
  <Box sx={{ width: '100%' }} >
  <TabContext value={value} >
       <TabList
