@@ -4,7 +4,7 @@ const Premise = () => {
   return (
     <div className='flex justify-evenly  mt-16 mb-10'>
 
-        <div className='ml-28 '>
+        <div className='ml-28 sml:ml-4'>
 
       <h1 className='font-bold text-[50px] mb-6 mt-10'>
         On Premise Solutions

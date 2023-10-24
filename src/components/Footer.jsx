@@ -10,7 +10,7 @@ import { RiTwitterXFill } from "react-icons/ri";
 const Footer = () => {
   return (
     <div className="flex flex-col gradient-2 whole page">
-      <div className="flex justify-between pt-24 pb-14 sml:bg-red-500 sml:flex-col">
+      <div className="flex justify-between pt-24 pb-14 sml:flex-col">
         <div>
           <img className="w-36 ml-24" src={Logo} alt="Logo" />
         </div>
@@ -52,7 +52,7 @@ const Footer = () => {
                   required
                 />
                 <input
-                  className="w-56 h-8 border border-gray-300 rounded px-2 ml-2"
+                  className="w-56 h-8 border border-gray-300 rounded px-2 ml-2 sml:w-44"
                   placeholder="Enter your name"
                   type="text"
                   name="name"

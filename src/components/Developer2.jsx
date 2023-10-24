@@ -13,7 +13,7 @@ const Developer2 = () => {
   return (
     <div className="whole page z-0">
       <div className="headings items-center">
-        <h1 className="font-bold text-[55px] text-center pt-10 sml:text-sm">
+        <h1 className="font-bold text-[55px] text-center pt-10 sml:text-3xl">
           Developer get more Insights to
           <br />
           <span className="text-[#037AF8]">Reproduce the issue</span>
