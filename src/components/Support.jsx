@@ -9,25 +9,25 @@ import Edge from '../assets/Edge.png'
 import AddMore from '../assets/AddMore.png' 
 const Support = () => {
   return (
-    <div className='border ml-10 mr-20 rounded-t-3xl mt-10 border-b-0 overflow-hidden'>
+    <div className='border ml-10 mr-20 rounded-t-3xl mt-10 border-b-0 overflow-hidden sml:mr-0 sml:ml-0'>
       <div className='background-img pt-32'>
-      <h1 className='flex justify-center font-bold text-[55px] text-center' style={{color:'black'}}  >
+      <h1 className='flex justify-center font-bold text-[55px] text-center  sml:text-3xl' style={{color:'black'}} >
       Support for browsers on both
-      </h1><h1 className='flex justify-center font-bold text-[55px] text-center '>
+      </h1><h1 className='flex justify-center font-bold text-[55px] text-center sml:text-3xl'>
       <span className="text-[#08A2F3]">
        Mobile&nbsp;</span>
        and<span className="text-[#037AF8]">&nbsp;Web </span>
         </h1>
         </div>
-      <div className='flex justify-center mt-10 gap-20'>
-        <img src={Safari} alt='Safari img'/>
-        <img src={Firefox} alt='Firefox img'/>
-        <img src={Chrome} alt='Chrome img'/>
-        <img src={Brave} alt='Brave img'/>
-        <img src={Edge} alt='Edge img'/>
-        <img src={OperaMini} alt='OperaMini img'/>
-        <img src={AddMore} alt='AddMore img'/>
-    </div>
+      <div className='flex justify-center mt-10 gap-20 sml:gap-3 '>
+        <img className='sml:h-10 sml:w-10' src={Safari} alt='Safari img '/>
+        <img className='sml:h-10 sml:w-10' src={Firefox} alt='Firefox img'/>
+        <img className='sml:h-10 sml:w-10' src={Chrome} alt='Chrome img'/>
+        <img className='sml:h-10 sml:w-10' src={Brave} alt='Brave img'/>
+        <img className='sml:h-10 sml:w-10' src={Edge} alt='Edge img'/>
+        <img className='sml:h-10 sml:w-10' src={OperaMini} alt='OperaMini img'/>
+        <img className='sml:h-10 sml:w-10' src={AddMore} alt='AddMore img'/>
+    </div> 
     </div>
   )
 }

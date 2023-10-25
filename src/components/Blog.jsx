@@ -77,16 +77,8 @@ const data = [
 ];
 
 const Blog = () => {
-  const breakpoints = {
-    768: {
-      slidesPerView: 1,
-    },
-    1200: {
-      slidesPerView: 3,
-    },
-  };
   return (
-    <div className="m-6 mb-28">
+    <div className="m-6 mb-28 sml:m-2">
       <div className="items-center" id="blog">
         <h1 className="font-bold text-4xl text-center pt-20">
           Customer Testimonials
@@ -102,16 +94,33 @@ const Blog = () => {
           modules={[Navigation, Pagination]}
           navigation
           pagination={{ clickable: true }}
-          breakpoints={breakpoints}
+          loop
+          breakpoints= {{
+            // when window width is >= 320px
+            320: {
+              slidesPerView: 1,
+              // spaceBetween: 20
+            },
+            // when window width is >= 480px
+            540: {
+              slidesPerView: 2,
+              // spaceBetween: 30
+            },
+            // when window width is >= 640px
+            1200: {
+              slidesPerView: 3,
+              // spaceBetween: 40
+            }}
+          }
           onSlideChange={() => console.log("slide change")}
           onSwiper={(swiper) => console.log(swiper)}
         >
         {data.map((item, index) => (
           <SwiperSlide  key={index} >
-            <div className="border bg border-gray-300 bg-white w-[95%] rounded-2xl p-3 h-96 " 
+            <div className="border bg border-gray-300 bg-white w-[95%] rounded-2xl p-3 h-96 sml:w-[80%]" 
              
-            > <img src={stars} alt="stars" className="my-8 sml:my-0"/>
-              <p className="h-1/2 font-semibold pr-20 sml:text-xs">{item.desc}</p>
+            > <img src={stars} alt="stars" className="my-8 sml:my-4"/>
+              <p className="h-1/2 font-semibold pr-20 sml:text-xs sml:pr-0">{item.desc}</p>
               <div className="flex pt-8">
               <img src={photo} alt="" className="flex mr-4"/>
               <div className="font-bold capitalize">

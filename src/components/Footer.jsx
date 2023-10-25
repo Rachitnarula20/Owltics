@@ -45,14 +45,14 @@ const Footer = () => {
             <div className="flex flex-col gap-4">
               <div className="flex">
                 <input
-                  className="w-56 h-8 border border-gray-300 rounded px-2"
+                  className="w-56 h-8 border border-gray-300 rounded px-2 sml:w-44"
                   placeholder="you@example.com"
                   type="email"
                   name="email"
                   required
                 />
                 <input
-                  className="w-56 h-8 border border-gray-300 rounded px-2 ml-2 sml:w-44"
+                  className="w-56 h-8 border border-gray-300 rounded px-2 ml-2 sml:w-[8.5rem]"
                   placeholder="Enter your name"
                   type="text"
                   name="name"
@@ -61,7 +61,7 @@ const Footer = () => {
               </div>
               <div className="flex flex-col">
                 <textarea
-                  className="w-96 h-24 border border-gray-300 rounded px-2 py-1"
+                  className="w-96 h-24 border border-gray-300 rounded px-2 py-1 sml:w-72"
                   placeholder="Type your message..."
                   name="message"
                   required
@@ -88,7 +88,7 @@ const Footer = () => {
         style={{ backgroundColor: "#CFEEFE", height: "2px", border: "none" }}
       />
       <div className="flex-1 pb-10">
-        <div className="flex gap-6 ml-20 mt-4">
+        <div className="flex gap-6 ml-20 mt-4 sml:ml-0">
           <h3>©2023 The Product Management. All rights reserved</h3>
           <a href="#" className="flex underline">
             Privacy Policy
