@@ -117,7 +117,7 @@ const Blog = () => {
         >
         {data.map((item, index) => (
           <SwiperSlide  key={index} >
-            <div className="border bg border-gray-300 bg-white w-[95%] rounded-2xl p-3 h-96 sml:w-[80%]" 
+            <div className="border bg border-gray-300 bg-white w-[95%] rounded-2xl p-3 h-96 sml:w-[80%] sml:ml-9" 
              
             > <img src={stars} alt="stars" className="my-8 sml:my-4"/>
               <p className="h-1/2 font-semibold pr-20 sml:text-xs sml:pr-0">{item.desc}</p>

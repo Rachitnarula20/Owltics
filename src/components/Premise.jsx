@@ -6,7 +6,7 @@ const Premise = () => {
 
         <div className='ml-28 sml:ml-4'>
 
-      <h1 className='font-bold text-[50px] mb-6 mt-10'>
+      <h1 className='font-bold text-[50px] mb-6 mt-10 sml:text-3xl'>
         On Premise Solutions
       </h1> 
       <p className='mb-5'>

@@ -30,7 +30,7 @@ const data = [
 const Pricing = () => {
   return (
     <div className='gradient-1 text-center' id='pricing'>
-      <h1 className='font-bold text-5xl sml:text-4xl pt-20'>
+      <h1 className='font-bold text-5xl sml:text-4xl pt-20 sml:pt-4'>
         Pricing Plan
       </h1>
       <p className='text-base sml:text-lg pt-4'>
@@ -46,7 +46,7 @@ const Pricing = () => {
       </div>
       <div className='flex justify-center gap-8 sml:flex-col '>
         {data.map((item) => (
-          <div className="bg-white p-6 rounded-2xl shadow-md flex flex-col justify-between w-96 pb-12 h-[574px] mb-20 sml:w-80" key={item.plan}>
+          <div className="bg-white p-6 rounded-2xl shadow-md flex flex-col justify-between w-96 pb-12 h-[574px] mb-20 sml:w-80 sml:ml-8" key={item.plan}>
             <h1 className='text-xl pb-2'>{item.plan} plan</h1>
             <h1 className='text-[50px] font-bold mt-4'>${item.month}</h1>
             <p className='pb-6 text-gray-500 mt-4'>or ${item.yearly} yearly</p>
