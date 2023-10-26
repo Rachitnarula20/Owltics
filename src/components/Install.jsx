@@ -19,8 +19,8 @@ const Install = () => {
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos laboriosam nobis non, sint numquam Lorem ipsum dolor sit amet
         </div>
 
-        <div className='flex mt-14 mx-14 ml-48 md:flex-row sml:mx-0 sml:mt-4'>
-            <div className='gap-0 mr-20 w-1/4 mt-10 sml:mt-0'>
+        <div className='flex mt-14 mx-14 ml-48 sml:mx-0 sml:mt-4 sml:flex-col'>
+            <div className='gap-0 mr-20 w-1/4 mt-10 sml:mt-0 sml:w-full'>
                 {data.map((item,index)=>(
               <div className='inner py-3 px-4 flex-1 mt-4 hover:gradient-hover  hover:cursor-pointer sml:mt-0 ' key={index}>
                <h3 className=' text-base text-gray-500 sml:text-xs'>{item.head_small}</h3>
@@ -28,7 +28,7 @@ const Install = () => {
               </div>
                 ))}
             </div>
-            <div className='mx-4 sml:my-auto'>
+            <div className='mx-4 sml:my-auto sml:mt-4'>
             <img src={ScreenShot} alt='SS' className='max-w-full h-auto'/>
             </div>
         </div>  
