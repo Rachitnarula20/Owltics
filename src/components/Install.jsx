@@ -13,7 +13,7 @@ const data=[
 const Install = () => {
   return (<div className='bg-white rounded-t-[56px] -mt-14 sml:ml-0'>
         
-            <h1 className='font-bold text-[55px] text-center pt-10 sml:text-2xl'>Install and use with simple steps</h1>
+            <h1 className='font-bold text-[55px] text-center pt-10 sml:text-2xl sml:pt-16'>Install and use with simple steps</h1>
         
         <div className='text-center  text-gray-500 mt-6'>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos laboriosam nobis non, sint numquam Lorem ipsum dolor sit amet

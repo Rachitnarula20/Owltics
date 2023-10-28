@@ -46,7 +46,7 @@ const Pricing = () => {
       </div>
       <div className='flex justify-center gap-8 sml:flex-col '>
         {data.map((item) => (
-          <div className="bg-white p-6 rounded-2xl shadow-md flex flex-col justify-between w-96 pb-12 h-[574px] mb-20 sml:w-80 sml:ml-8" key={item.plan}>
+          <div className="bg-white p-6 rounded-2xl shadow-md flex flex-col justify-between w-96 pb-12 h-[574px] mb-20 sml:w-80 sml:mx-auto" key={item.plan}>
             <h1 className='text-xl pb-2'>{item.plan} plan</h1>
             <h1 className='text-[50px] font-bold mt-4'>${item.month}</h1>
             <p className='pb-6 text-gray-500 mt-4'>or ${item.yearly} yearly</p>

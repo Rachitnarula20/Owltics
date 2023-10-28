@@ -6,7 +6,7 @@ const Framework = () => {
       <div className='ml-28 sml:ml-0 '>
         <img className='w-full' src={work} alt="framwork" />
       </div>
-      <div className='flex flex-col w-[35rem] mr-52 justify-center ml-10 sml:mr-0 sml:ml-0 sml:w-full'>
+      <div className='flex flex-col w-[35rem] mr-52 justify-center ml-10 sml:mr-0 sml:ml-0 sml:w-fit'>
         <h1 className='font-bold text-[50px] sml:text-3xl'>Support for all the modern Frameworks</h1>
         <p className='mt-6 text-gray-500 sml:text-xs'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio maiores quo veniam animi laborum perspiciatis eaque, officiis quia culpa nobis sint, blanditiis iusto, rerum voluptatem molestiae exercitationem autem cum harum.</p>
 
