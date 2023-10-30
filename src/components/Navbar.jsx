@@ -7,13 +7,13 @@ const Navbar1 = () => {
 
   return (
       
-      <div className="bg-white fixed w-full top-0 z-10">
+      <div className="bg-white fixed w-full top-0 z-10 ">
       <div className="flex justify-between py-4">
       <div className="flex justify-between ml-8 sml:ml-2">
-        <div className="w-48 ">
-          <a href="/"><img className="" src={Logo} alt="Logo Img" /></a>
+        <div className="w-48 sml:m-auto ">
+          <a href="/"><img className="sml:w-44" src={Logo} alt="Logo Img" /></a>
         </div>
-        <div className="inner flex gap-8 items-center ml-6 ">
+        <div className="inner flex gap-8 items-center ml-6 sml:hidden sml:ml-0">
           <a  className="hover:underline decoration-blue-500 " href="#home">Home</a>
           <a className="hover:underline decoration-blue-500 " href="#features">Features</a>
           <a className="hover:underline decoration-blue-500 " href="#pricing">Pricing</a>
