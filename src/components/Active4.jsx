@@ -26,12 +26,12 @@ const Active4 = () => {
               className="inner py-3 px-4 flex-1 mt-4 hover:gradient-hover1  hover:cursor-pointer"
               key={index}
             >
-              <h1 className="font-semibold text-2xl">{item.head}</h1>
-              <button className=" border-black border-2 text-gray-500 rounded-lg py-1 px-2">
+              <h1 className="font-semibold text-xl">{item.head}</h1>
+              <button className=" border-black border text-gray-500 rounded-lg py-1 px-2">
                 {item.btn}
               </button>
               {item.btn1 && (
-                <button className="border-black border-2 text-gray-500 rounded-lg py-1 px-2 ml-2">
+                <button className="border-black border text-gray-500 rounded-lg py-1 px-2 ml-2">
                   {item.btn1}
                 </button>
               )}

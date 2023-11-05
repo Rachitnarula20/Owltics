@@ -10,10 +10,10 @@ const Framework = () => {
         <h1 className='font-bold text-[50px] sml:text-3xl'>Support for all the modern Frameworks</h1>
         <p className='mt-6 text-gray-500 sml:text-xs'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio maiores quo veniam animi laborum perspiciatis eaque, officiis quia culpa nobis sint, blanditiis iusto, rerum voluptatem molestiae exercitationem autem cum harum.</p>
 
-        <button className="font-semibold items-center mr-[23rem] flex flex-col rounded-lg py-3 px-5 border-[1px] 
+        {/* <button className="font-semibold items-center mr-[23rem] flex flex-col rounded-lg py-3 px-5 border-[1px] 
         border-solid border-gray-500 mt-10 transition-all ease-in duration-300 hover:scale-105 sml:font-normal sml:px-14 sml:mx-auto">
             View all Frameworks
-        </button>
+        </button> */}
       </div>
     </div>
   )

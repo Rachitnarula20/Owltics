@@ -40,7 +40,7 @@ const data = [
 
 const Features = () => {
   return (
-    <div className='grid grid-cols-3  sml:grid-cols-1 med:grid-cols-3 gap-4 justify-center mx-4 sml::mx-8 med::mx-16 my-28 ' id='features'>
+    <div className='grid grid-cols-3  sml:grid-cols-1 med:grid-cols-3 gap-4 justify-center mx-36 sml::mx-8 med::mx-16 my-28 ' id='features'>
       {data.map((item, index) => (
         <div key={index} className="bg-white p-6 flex flex-col items-center">
           <img src={item.img} alt="" className="max-w-full h-auto mb-4" />

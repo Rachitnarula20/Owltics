@@ -99,7 +99,7 @@ const Footer = () => {
           <a href="#" className="underline">
             Cookies Setting
           </a>
-          <BiLogoFacebookCircle size={25} className="ml-[22rem]" />{" "}
+          <BiLogoFacebookCircle size={25} className="ml-48" />{" "}
           <BiLogoInstagram size={25} /> <RiTwitterXFill size={25} />{" "}
           <BiLogoLinkedinSquare size={25} /> <BiLogoYoutube size={25} />
         </div>
