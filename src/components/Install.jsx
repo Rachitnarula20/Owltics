@@ -4,7 +4,7 @@ import ScreenShot from '../assets/Screenshot.png'
 const data=[
     {head_large: 'Add SDK Script', 
     head_small: 'WEBSDK'},
-    {head_large: 'Screenshot or Record Sessions with logs', 
+    {head_large: 'Screenshot/Record Sessions with logs', 
     head_small: 'CAPTURE WITH MEDIA'},
     {head_large: 'Detailed Insights in Dashboard', 
     head_small: 'CHAT'},
