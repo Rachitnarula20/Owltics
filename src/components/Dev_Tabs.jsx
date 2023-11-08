@@ -27,7 +27,7 @@ export default function Dev_Tabs() {
 
  
   return (
-    <div className='mx-52 sml:mx-0'>
+    <div className='ml-48 mr-20 sml:mx-0'>
  <Box sx={{ width: '100%' }} >
  <TabContext value={value} >
       <TabList
@@ -40,11 +40,11 @@ export default function Dev_Tabs() {
         className='mt-10'
       >
       
-        <Tab icon={<Avatar src={Img1 }/> } iconPosition='start' value="1"  label="Console Traces" style={{textTransform:'capitalize', fontSize:16, fontWeight:'bold'}} className=' w-1/5 '/>
-        <Tab icon={<Avatar src={Img2 }/> } iconPosition='start' value="2" label="Detailed Network Log" style={{textTransform:'capitalize', fontSize:16, fontWeight:'bold'}} className='w-1/5 '/>
-        <Tab icon={<Avatar src={Img3 }/> } iconPosition='start' value="3" label="Browser storage Info" style={{textTransform:'capitalize', fontSize:16, fontWeight:'bold'}} className='w-1/5 '/>
-        <Tab icon={<Avatar src={Img5 }/> } iconPosition='start' value="4" label="User Events" style={{textTransform:'capitalize', fontSize:16, fontWeight:'bold'}} className='w-1/5  '/>
-        <Tab icon={<Avatar src={Img4 }/> } iconPosition='start' value="5" label="Browser & System Info" style={{textTransform:'capitalize', fontSize:16, fontWeight:'bold'}} className='w-1/5 '/>
+        <Tab icon={<Avatar src={Img1 }/> } iconPosition='start' value="1"  label="Console Traces" style={{textTransform:'capitalize', fontSize:16, fontWeight:'bold'}} className=' w-1/5 p-10'/>
+        <Tab icon={<Avatar src={Img2 }/> } iconPosition='start' value="2" label="Detailed Network Log" style={{textTransform:'capitalize', fontSize:16, fontWeight:'bold'}} className='w-1/5 p-10'/>
+        <Tab icon={<Avatar src={Img3 }/> } iconPosition='start' value="3" label="Browser storage Info" style={{textTransform:'capitalize', fontSize:16, fontWeight:'bold'}} className='w-1/5 p-10'/>
+        <Tab icon={<Avatar src={Img5 }/> } iconPosition='start' value="4" label="User Events" style={{textTransform:'capitalize', fontSize:16, fontWeight:'bold'}} className='w-1/5  p-10'/>
+        <Tab icon={<Avatar src={Img4 }/> } iconPosition='start' value="5" label="Browser & System Info" style={{textTransform:'capitalize', fontSize:16, fontWeight:'bold'}} className='w-1/5 p-10'/>
       </TabList>
       <hr />
     <TabPanel value="1"><Active1 /></TabPanel>

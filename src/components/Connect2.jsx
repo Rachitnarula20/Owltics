@@ -1,5 +1,5 @@
 import React from 'react'
-import connect from '../assets/cropped picture.png'
+import connect from '../assets/cropped image.png'
 const Connect2 = () => {
   return (
     <div>
