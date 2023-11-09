@@ -87,8 +87,8 @@ const Footer = () => {
         className="my-4 mx-20"
         style={{ backgroundColor: "#CFEEFE", height: "2px", border: "none" }}
       />
-      <div className="flex-1 pb-10">
-        <div className="flex gap-6 ml-20 mt-4 sml:ml-0">
+      <div className="flex-1 pb-10 sml:flex-col">
+        <div className="flex gap-6 ml-20 mt-4 sml:ml-0 sml:flex ">
           <h3>©2023 The Product Management. All rights reserved</h3>
           <a href="#" className="flex underline">
             Privacy Policy
@@ -98,8 +98,10 @@ const Footer = () => {
           </a>
           <a href="#" className="underline">
             Cookies Setting
-          </a>
-          <BiLogoFacebookCircle size={25} className="ml-48" />{" "}
+          </a> 
+          </div>
+          <div className="sml: flex gap-4 sml:mt-8">
+          <BiLogoFacebookCircle size={25} className="ml-48 sml:ml-0 " />{" "}
           <BiLogoInstagram size={25} /> <RiTwitterXFill size={25} />{" "}
           <BiLogoLinkedinSquare size={25} /> <BiLogoYoutube size={25} />
         </div>
