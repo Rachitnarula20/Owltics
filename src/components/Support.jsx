@@ -9,7 +9,7 @@ import Edge from '../assets/Edge.png'
 import AddMore from '../assets/AddMore.png' 
 const Support = () => {
   return (
-    <div className='border ml-10 mr-20 rounded-t-3xl mt-10 border-b-0 overflow-hidden sml:mr-0 sml:ml-0'>
+    <div className='border ml-28 mr-20 rounded-t-3xl mt-10 border-b-0 overflow-hidden sml:mr-0 sml:ml-0'>
       <div className='background-img pt-32'>
       <h1 className='flex justify-center font-bold text-[55px] text-center  sml:text-3xl' style={{color:'black'}} >
       Support for browsers on both

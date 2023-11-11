@@ -29,12 +29,12 @@ const accordianData =[
       <div className='flex justify-between mr-0 ml-10 sml:ml-0 sml:flex-col'>
         <div className='ml-10 w-2/5 pl-20 sml:ml-0 sml:pl-2 sml:w-fit sml:mx-6' >
       <h3 className='text-gray-500 font-semibold sml:ml-0 sml:text-lg'>Getting Started in Minutes</h3>
-            <h1 className='font-semibold text-[55px] mb-10 sml:ml-0 sml:text-3xl'>
+            <h1 className='font-semibold text-[55px] mb-10 sml:ml-0 sml:text-3xl sml:text-center'>
                 Be Productive 
                 <br />
                 with <span className="text-[#08A2F3]">Owltics</span>
             </h1>
-            <div>
+            <div  className='sml:ml-2'>
                 {accordianData.map((data,index) =>{
                     return <Accordian key={index} open={index === open} title={data.title} desc={data.desc} toggle={() => toggle(index)}/>
                 })}

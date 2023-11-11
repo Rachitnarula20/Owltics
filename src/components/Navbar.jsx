@@ -27,14 +27,15 @@ const Navbar1 = () => {
 
       <div className="buttons flex gap-6 items-center">
           <div >
-            <button className="rounded-lg py-2 px-5 border-[1px] border-solid border-gray-500 transition-all ease-in duration-300 hover:scale-105 ">
+            <button className="rounded-lg py-2 px-5 border-[1px] border-solid border-gray-500 transition-all ease-in duration-300 hover:scale-105 sml:py-1 sml:px-3">
               Register
               </button>
               </div>
           <div>
-            <button className="mr-20 py-2 px-5 text-white border-[1px] border-solid border-blue-500 rounded-lg bg-blue-500 transition-all ease-in duration-300 hover:scale-105">Log In</button>
+            <button className="mr-20 py-2 px-5 text-white border-[1px] border-solid border-blue-500 rounded-lg bg-blue-500 transition-all ease-in duration-300 hover:scale-105 sml:py-1 sml:px-3 sml:mr-3">Log In</button>
           </div>
         </div>
+
     </div>
     <hr />
     </div>

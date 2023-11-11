@@ -19,7 +19,7 @@ const Developer2 = () => {
           <span className="text-[#037AF8]">Reproduce the issue</span>
         </h1>
 
-        <p className="text-center  text-gray-500 mt-6">
+        <p className="text-center  text-gray-500 mt-6 sml:ml-2">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis
           voluptatibus
         </p>

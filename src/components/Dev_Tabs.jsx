@@ -41,10 +41,10 @@ export default function Dev_Tabs() {
       >
       
         <Tab icon={<Avatar src={Img1 }/> } iconPosition='start' value="1"  label="Console Traces" style={{textTransform:'capitalize', fontSize:16, fontWeight:'bold'}} className=' w-1/5 p-10'/>
-        <Tab icon={<Avatar src={Img2 }/> } iconPosition='start' value="2" label="Detailed Network Log" style={{textTransform:'capitalize', fontSize:16, fontWeight:'bold'}} className='w-1/5 p-10'/>
-        <Tab icon={<Avatar src={Img3 }/> } iconPosition='start' value="3" label="Browser storage Info" style={{textTransform:'capitalize', fontSize:16, fontWeight:'bold'}} className='w-1/5 p-10'/>
+        <Tab icon={<Avatar src={Img2 }/> } iconPosition='start' value="2" label="Network Log" style={{textTransform:'capitalize', fontSize:16, fontWeight:'bold'}} className='w-1/5 p-10'/>
+        <Tab icon={<Avatar src={Img3 }/> } iconPosition='start' value="3" label="Browser storage " style={{textTransform:'capitalize', fontSize:16, fontWeight:'bold'}} className='w-1/5 p-10'/>
         <Tab icon={<Avatar src={Img5 }/> } iconPosition='start' value="4" label="User Events" style={{textTransform:'capitalize', fontSize:16, fontWeight:'bold'}} className='w-1/5  p-10'/>
-        <Tab icon={<Avatar src={Img4 }/> } iconPosition='start' value="5" label="Browser & System Info" style={{textTransform:'capitalize', fontSize:16, fontWeight:'bold'}} className='w-1/5 p-10'/>
+        <Tab icon={<Avatar src={Img4 }/> } iconPosition='start' value="5" label="Browser & System " style={{textTransform:'capitalize', fontSize:16, fontWeight:'bold'}} className='w-1/5 p-10'/>
       </TabList>
       <hr />
     <TabPanel value="1"><Active1 /></TabPanel>
