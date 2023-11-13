@@ -11,7 +11,7 @@ const data=[
 
 ]
 const Install = () => {
-  return (<div className='bg-white rounded-t-[56px] -mt-14 sml:ml-0'>
+  return (<div className='bg-white rounded-t-[56px] -m-1 sml:ml-0'>
         
             <h1 className='font-bold text-[55px] text-center pt-10 sml:text-2xl sml:pt-16 sml:ml-2'>Install and use with simple steps</h1>
         

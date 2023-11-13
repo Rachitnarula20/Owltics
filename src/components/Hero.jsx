@@ -1,5 +1,6 @@
 import React from 'react'
 import Hero_2 from '../assets/30.png'
+import Hero_img from './Hero_img'
 const Hero = () => {
   return (
     <div className='gradient-1' id='home'>
@@ -23,9 +24,12 @@ const Hero = () => {
             </button>
         </div>
       </div>
-      <div className=' pb-20'>
+      <div className='sml:hidden'>
+      <Hero_img />
+      </div>
+      {/* <div className=' pb-20'>
       <img src={Hero_2} alt='hero' />
-    </div>
+    </div> */}
     </div>
      
   )
