@@ -1,10 +1,10 @@
 import React from 'react';
-import Annotation from '../assets/Annotation.png'
-import ActionableFeedback from '../assets/Actionable-Feedback.png'
-import OnPremise from '../assets/On-Premise.png'
-import Session from '../assets/Session-Replays.png'
-import Integrations from '../assets/Integrations.png'
-import Web from '../assets/Web-Sdk.png'
+import Annotation from '../assets/Annotation.svg'
+import ActionableFeedback from '../assets/Actionable-Feedback.svg'
+import OnPremise from '../assets/On-Premise.svg'
+import Session from '../assets/Session-Replays.svg'
+import Integrations from '../assets/Integrations.svg'
+import Web from '../assets/Web-Sdk.svg'
 const data = [
   {
     img: Annotation,
