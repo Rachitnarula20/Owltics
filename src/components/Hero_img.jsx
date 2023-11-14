@@ -15,26 +15,12 @@ const Hero_img = () => {
   return (
     <div className='whole page flex justify-between mt-16 '>
       <div>
-    <img src={img1} alt="woman" /> 
-    <img className='absolute bottom-48 left-[22rem]' src={wire1} alt="" />
-    <img className='absolute bottom-60 left-[34rem] z-10 ' src={rec} alt="" />
-    <img className='absolute bottom-36 left-[37rem] z-10 ' src={replay} alt="" />
-    <img className='absolute bottom-8 left-[42rem] z-10 ' src={event} alt="" />
-    <img className='absolute bottom-40 left-[46rem] z-10 ' src={console} alt="" />
-    <img className='absolute bottom-36 left-[53rem] z-10 ' src={integrations} alt="" />
-    <img className='absolute bottom-80 left-[60rem] z-10 ' src={ss} alt="" />
-    <h6 className='text-xs absolute bottom-60 left-[33rem] rotate-[18deg] text-[#037AF8] z-10'>Screen Recording</h6>
-    <h6 className='text-xs absolute bottom-36 left-[38rem] rotate-[10deg] text-[#037AF8] z-10'>Replay</h6>
-    <h6 className='text-xs absolute bottom-36 left-[53.5rem] rotate-[354deg] text-[#037AF8] z-10'>Integrations</h6>
-    <h6 className='text-xs absolute bottom-8 left-[43.25rem] rotate-[0deg] text-[#037AF8] z-10'>Event</h6>
-    <h6 className='text-xs absolute bottom-40 left-[46rem] rotate-[0deg] text-[#037AF8] z-10'>Console Logs</h6>
-    <h6 className='text-xs absolute bottom-80 left-[60.5rem] rotate-[354deg] text-[#037AF8] z-10'>Screenshot</h6>
-    <img className='absolute bottom-32 left-[22rem]' src={wire2} alt="" />
-    <img className='absolute bottom-12  left-[22rem]' src={wire3} alt="" />
+    <img className='z-20' src={img1} alt="woman" /> 
+    <img className='translate-x-1/2 translate-y-[-412px] z-10' src={wire1} alt="" />
     
       </div>
       <div>
-        <img src={img2} alt="" />
+        <img className='z-20' src={img2} alt="man" />
       </div>
     </div>
   )
